@@ -49,7 +49,7 @@ struct Home: View {
                 sampleAnalystic = sample_analytics
                 if newValue != "7 Days" {
                     for (index,_) in sampleAnalystic.enumerated() {
-                        sampleAnalystic[index].views = .random(in: 10000...1000000)
+                        sampleAnalystic[index].views = .random(in: 1000...10000)
                     }
                 }
 //                 MARK: Re-Animating view
@@ -99,7 +99,7 @@ struct Home: View {
             }
         }
         // MARK: Customizing Y-Axis Length
-        .chartYScale(domain: 1500...(max + 1000000))
+        .chartYScale(domain: 500...(max + 2000))
         // MARK: Gesture To Highlight Current Bar
         .chartOverlay(content: { proxy in
             GeometryReader { innerProxy in

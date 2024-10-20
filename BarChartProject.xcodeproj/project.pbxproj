@@ -36,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E13A63742CC41D7800DFC40F /* Old learning */ = {
+			isa = PBXGroup;
+			children = (
+				E18650712C95F2C400A33768 /* View */,
+				E18650752C95F30200A33768 /* Model */,
+			);
+			path = "Old learning";
+			sourceTree = "<group>";
+		};
 		E18650572C95F29500A33768 = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +64,9 @@
 		E18650622C95F29500A33768 /* BarChartProject */ = {
 			isa = PBXGroup;
 			children = (
-				E18650752C95F30200A33768 /* Model */,
-				E18650712C95F2C400A33768 /* View */,
 				E18650632C95F29500A33768 /* BarChartProjectApp.swift */,
 				E18650652C95F29500A33768 /* ContentView.swift */,
+				E13A63742CC41D7800DFC40F /* Old learning */,
 				E18650672C95F29600A33768 /* Assets.xcassets */,
 				E18650692C95F29600A33768 /* Preview Content */,
 			);
